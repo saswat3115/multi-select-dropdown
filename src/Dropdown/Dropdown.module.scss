@@ -8,15 +8,18 @@
         .input {
             border-radius: 10px;
             border: 2px solid gray;
-            padding: 0 16px;
+            padding: 0 24px 0 16px;
             height: 40px;
             transition: border .3s ease-in-out;
             outline: none;
-            color: #636363;
+            color: #6d6d6d;
             font-size: 16px;
             font-weight: 500;
             width: 100%;
             background: transparent;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
     
             &:focus {
                 border-color: #784cfc;
